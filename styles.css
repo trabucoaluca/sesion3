@@ -17,3 +17,21 @@
     height: 100px;
     background-color: green;
 }
+
+.container-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.container-imagen img{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.container-imagen h2{
+    color:white;
+    font-size: 30px;
+    margin: 0;
+}
