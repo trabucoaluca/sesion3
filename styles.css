@@ -3,3 +3,17 @@
     height: 400px;
     background-color: aqua;
 }
+
+.container-section-promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    justify-content: center;
+    background-color: red;
+}
+
+.item-section-promo {
+    width: 30%;
+    height: 100px;
+    background-color: green;
+}
