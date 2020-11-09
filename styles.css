@@ -3,3 +3,53 @@
     height: 400px;
     background-color: aqua;
 }
+
+.container-informacion{
+    display: flex;
+    justify-content: center;
+}
+
+.container-video{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    align-items: center;
+}
+
+.container-video img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.container-publicidad{
+    padding-top: 40px;
+    padding-left: 15px;
+    width: 40%;
+    
+}
+
+.container-publicidad h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #025157;
+    font-size: 30px;
+    margin: 10px;
+}
+  
+.container-publicidad p {
+    color: #343434;
+    font-size: 16px;
+}
+  
+.container-publicidad form {
+    display: flex;
+}
+
+.container-publicidad form div{
+    padding-top: 10px;
+}
+  
+.container-publicidad form p {
+    color: #025157;
+    margin: 15px;
+}
+
